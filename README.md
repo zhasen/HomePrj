@@ -22,4 +22,4 @@ fds
 
 branch dev test
 
-test zhasen 2
+test zhasen 1 or 2
