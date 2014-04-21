@@ -1,3 +1,4 @@
+http://www.zhihu.com/question/20070065
 1.需要告诉Github，你要使用的用户名
 git config --global user.name "Your Name Here"  
 
@@ -121,7 +122,35 @@ origin  git@github.com:michaelliao/learngit.git (push)
 暂存工作现场
 git stash
 
+提交开发分支到代码库
+ git push origin dev
 
+查看远程库信息，使用git remote -v；
+本地新建的分支如果不推送到远程，对其他人就是不可见的；
+从本地推送分支，使用git push origin branch-name，如果推送失败，先用git pull抓取远程的新提交；
+在本地创建和远程分支对应的分支，使用git checkout -b branch-name origin/branch-name，本地和远程分支的名称最好一致；
+建立本地分支和远程分支的关联，使用git branch --set-upstream branch-name origin/branch-name；
+从远程抓取分支，使用git pull，如果有冲突，要先处理冲突。
+
+
+命令git tag name用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+-a tagname -m "blablabla..."可以指定标签信息；
+-s tagname -m "blablabla..."可以用PGP签名标签；
+命令git tag可以查看所有标签；
+
+删除标签
+git tag -d v0.1
+
+推送到远程
+git push origin v1.0
+
+一次性推送全部尚未推送到远程的本地标签
+git push origin --tags
+
+如果标签已经推送到远程，要删除远程标签就麻烦一点，先从本地删除：
+git tag -d v0.9
+然后，从远程删除。删除命令也是push，但是格式如下：
+git push origin :refs/tags/v0.9
 
 
 
