@@ -1,3 +1,4 @@
 HomePrj
 =======
 server
+local server
