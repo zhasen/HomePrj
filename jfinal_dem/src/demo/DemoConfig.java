@@ -32,7 +32,7 @@ public class DemoConfig extends JFinalConfig {
 		me.add(arp);
 		arp.addMapping("[User]", User.class);
 		arp.setDialect(new AnsiSqlDialect());
-		System.out.println("123");
+		System.out.println("1231");
 	}
 
 	public void configInterceptor(Interceptors me) {
