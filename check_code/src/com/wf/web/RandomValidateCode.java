@@ -54,8 +54,8 @@ public class RandomValidateCode {
 				BufferedImage.TYPE_INT_BGR);
 		Graphics g = image.getGraphics();// 产生Image对象的Graphics对象,改对象可以在图像上进行各种绘制操作
 		g.fillRect(0, 0, width, height);
-		g.setFont(new Font("Times New Roman", Font.ROMAN_BASELINE, 18));
-		g.setColor(getRandColor(110, 133));
+		g.setFont(new Font("Times New Roman", Font.ROMAN_BASELINE, 15));
+		g.setColor(getRandColor(10, 133));
 		// 绘制干扰线
 		for (int i = 0; i <= lineSize; i++) {
 			drowLine(g);

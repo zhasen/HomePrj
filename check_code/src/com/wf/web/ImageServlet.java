@@ -13,7 +13,6 @@ public class ImageServlet extends HttpServlet {
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-
 		response.setContentType("image/jpeg");// 设置相应类型,告诉浏览器输出的内容为图片
 		response.setHeader("Pragma", "No-cache");// 设置响应头信息，告诉浏览器不要缓存此内容
 		response.setHeader("Cache-Control", "no-cache");
@@ -30,5 +29,4 @@ public class ImageServlet extends HttpServlet {
 			throws ServletException, IOException {
 		doGet(request, response);
 	}
-
 }
