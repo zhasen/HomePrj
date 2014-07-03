@@ -65,12 +65,11 @@ public class Test {
 		array = temp.clone();
 		array = new int[]{12,4,2,6,35,8,654,321,43,2,34,5};
 		quickSort(array,0,array.length-1);
-		showListContent(array);
+		//showListContent(array);
 		System.out.println("快速排序循环:" + this.con);
 	}
 
 	private void quickSort(int a[], int start, int end) {
-//		java.util.Collections.sort(null);// s;
 		int i, j;
 		i = start;
 		j = end;
@@ -102,7 +101,7 @@ public class Test {
 			/* 递归调用，把key前面的完成排序 */
 			quickSort(a, start, i - 1);
 		}
-		if (end - i > 1) {
+		if (end - i > 1) { 
 			quickSort(a, i + 1, end);/* 递归调用，把key后面的完成排序 */
 		}
 	}
