@@ -1,5 +1,7 @@
 package SortingAlgorithm.test;
 
+import java.util.EnumSet;
+
 public class Test {
 	// 个数
 	private static int count = 100;
@@ -10,8 +12,11 @@ public class Test {
 	private long con = 0;
 
 	public static void main(String[] args) {
-		Test test = new Test();
-		test.show();
+		// 算法test
+//		Test test = new Test();
+//		test.show();
+		// effective java test
+		
 	}
 
 	/**
