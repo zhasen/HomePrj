@@ -1,0 +1,5 @@
+C:\Users\zhasen\Documents\GitHub\HomePrj\msprj\wcf\EssentialWCF\EssentialWCF\bin\Debug\EssentialWCF.exe.config
+C:\Users\zhasen\Documents\GitHub\HomePrj\msprj\wcf\EssentialWCF\EssentialWCF\bin\Debug\EssentialWCF.exe
+C:\Users\zhasen\Documents\GitHub\HomePrj\msprj\wcf\EssentialWCF\EssentialWCF\bin\Debug\EssentialWCF.pdb
+C:\Users\zhasen\Documents\GitHub\HomePrj\msprj\wcf\EssentialWCF\EssentialWCF\obj\Debug\EssentialWCF.exe
+C:\Users\zhasen\Documents\GitHub\HomePrj\msprj\wcf\EssentialWCF\EssentialWCF\obj\Debug\EssentialWCF.pdb

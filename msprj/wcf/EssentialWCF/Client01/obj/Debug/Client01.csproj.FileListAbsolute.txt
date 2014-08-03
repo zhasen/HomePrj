@@ -1,0 +1,8 @@
+C:\Users\zhasen\Documents\GitHub\HomePrj\msprj\wcf\EssentialWCF\Client01\bin\Debug\Client01.exe.config
+C:\Users\zhasen\Documents\GitHub\HomePrj\msprj\wcf\EssentialWCF\Client01\bin\Debug\Client01.exe
+C:\Users\zhasen\Documents\GitHub\HomePrj\msprj\wcf\EssentialWCF\Client01\bin\Debug\Client01.pdb
+C:\Users\zhasen\Documents\GitHub\HomePrj\msprj\wcf\EssentialWCF\Client01\bin\Debug\EssentialWCF.exe
+C:\Users\zhasen\Documents\GitHub\HomePrj\msprj\wcf\EssentialWCF\Client01\bin\Debug\EssentialWCF.pdb
+C:\Users\zhasen\Documents\GitHub\HomePrj\msprj\wcf\EssentialWCF\Client01\obj\Debug\Client01.csprojResolveAssemblyReference.cache
+C:\Users\zhasen\Documents\GitHub\HomePrj\msprj\wcf\EssentialWCF\Client01\obj\Debug\Client01.exe
+C:\Users\zhasen\Documents\GitHub\HomePrj\msprj\wcf\EssentialWCF\Client01\obj\Debug\Client01.pdb
